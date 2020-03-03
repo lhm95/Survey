@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css">
+        <title>근골격계 유해요인 조사 설문지</title>
+        <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+        
+    </head>
+    <body>
+        <div id="wrap">
+
+            <div class="board">
+                <div class="paper">
+                    <div class="tongs"></div>
+                    <p class="date">2020-03-01</p>
+                    <h2><img src="images/icon01.jpg"/>근골격계 유해요인 조사 설문지</h2>
+                    <p class="info">
+                        # 본 조사는 근골격계부담 작업에 대한 설문조사로<br/>
+                        ‘산업안전보건법 보건규칙 제 657조’에 의거 매 3년마다 실시되는 정기조사입니다.<br/>
+                        귀 사업장의 상황 및 개선대책 수립을 위한 설문이며<br/>
+                        본 조사를 위한용도 외에는 사용되지 않음을 알려드립니다.
+                    </p>
+                    <section id="s01" class="cf">
+                        <div class="form_01">
+                            <ul>
+                                <li>
+                                    <span>성명</span><input type="text" placeholder="홍길동">
+                                </li>
+                                <li>
+                                    <span>부서명</span><input type="text" placeholder="">
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="form_02">
+                            <ul>
+                                <li class="radio">
+                                    <span style="width:110px;">성별</span style="width:90px;">
+                                    <input type="radio" id="form_02_01" value="1" name="sex">
+                                    <label class="1" for="form_02_01">
+                                        <div style="text-indent:0;">남</div>
+                                    </label>
+                                    <input type="radio" id="form_02_02" value="2"name="sex">
+                                    <label class="2" for="form_02_02">
+                                        <div style="text-indent:0;">여</div>
+                                    </label>
+                                </li>
+                                <li>
+                                    <span style="width:110px;" >결혼상태</span>
+                                    <input type="radio" id="form_02_03" value="1" name="merried">
+                                    <label class="1" for="form_02_03">
+                                        <div style="font-size:14px; text-indent: -5px; line-height: 19px;">미혼</div>
+                                    </label>
+                                    <input type="radio" id="form_02_04" value="2" name="merried">
+                                    <label class="2" for="form_02_04">
+                                        <div style="font-size:14px; text-indent: -5px; line-height: 19px;">기혼</div>
+                                    </label>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="form_03">
+    
+                            <ul class="cf">
+                                <li>
+                                    <span>연령</span><p>만</p><input type="text"><p>세</p>
+                                </li>
+                                <li>
+                                    <span>신장</span><input type="text"><p>cm</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="form_04">
+                            <ul>
+                                <li>
+                                    <span>현 직장 근무기간</span> <input type="text"><p>년</p><input type="text"><p>개월</p>
+                                </li>
+                                <li>
+                                    <span>현 업무(작업)기간</span> <input type="text"><p>년</p><input type="text"><p>개월</p>
+                                </li>
+                                <li>
+                                    <span>근무시간(1일)</span> <input type="text"><p>시간
+                                </li>
+                                <li>
+                                    <span>휴식시간(식사시간 제외)</span> <input type="text"><p>시간</p><input type="text"><p>분</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                    <section id="s02">
+                        <p class="alert"># 해당 되거나, 가장 가까운 곳에 표시해주세요 :D</p>
+                        <div class="form_05">
+                            <ul>
+                                <li>
+                                    <h4>
+                                        1. 규칙적인 (한번에 30분 이상, 1주일에 적어도 2~3회 이상)<br/>
+                                        여가 및 취미활동을 하고 있습니까?<br/>
+                                        (※ 신체활동성의 강도가 가장 가까운 항목에 표시)
+                                    </h4>
+                                    <div>
+                                        <input type="radio" id="form_05_01_01" name="form_05_01" value="1">
+                                        <label class="1" for="form_05_01_01">
+                                            <div>1</div>
+                                        </label class=""> 
+                                        <h3>컴퓨터 관련 활동</h3>
+                                    </div>
+                                    <div>
+                                        <input type="radio" id="form_05_01_02" name="form_05_01" value="2"><label class="2" for="form_05_01_02"><div>2</div></label>  <h3>악기연주 피아노/바이올린 등</h3></div>
+                                    <div><input type="radio" id="form_05_01_03" name="form_05_01" value="3"><label class="3" for="form_05_01_03"><div>3</div></label>  <h3>뜨개질/자수/그림/붓글씨 등</h3></div>
+                                    <div><input type="radio" id="form_05_01_04" name="form_05_01" value="4"><label class="4" for="form_05_01_04"><div>4</div></label>  <h3>테니스/배드민턴/스쿼시/탁구/골프 등</h3></div>
+                                    <div><input type="radio" id="form_05_01_05" name="form_05_01" value="5"><label class="5" for="form_05_01_05"><div>5</div></label>  <h3>축구/족구/농구/스키/수영 등</h3></div>
+                                    <div><input type="radio" id="form_05_01_06" name="form_05_01" value="6"><label class="6" for="form_05_01_06"><div>6</div></label>  <h3>해당사항 없음</h3></div>
+                                </li>
+                                <li>
+                                    <h4>
+                                        2. 귀하의 하루 평균 가사노동시간(밥하기, 빨래하기, 청소하기, 2살 미만의<br/>
+                                        아이 돌보기 등)은 얼마나 됩니까?
+                                    </h4>
+                                    <div><input type="radio" name="form_05_02"> <h3>거의 하지 않는다</h3></div>
+                                    <div><input type="radio" name="form_05_02"> <h3>1시간 미만</h3></div>
+                                    <div><input type="radio" name="form_05_02"> <h3>1~2시간 미만</h3></div>
+                                    <div><input type="radio" name="form_05_02"> <h3>2~4시간 미만</h3></div>
+                                    <div><input type="radio" name="form_05_02"> <h3>3시간 이상</h3></div>
+                                </li>
+                                <li>
+                                    <h4>
+                                        3. 귀하는 의사로부터 다음과 같은 질병에 대해 진단을 받은 적이 있습니까?
+                                    </h4>
+                                    <div><input type="radio" name="form_05_03"> <h3>류머티스 관절염</h3></div>
+                                    <div><input type="radio" name="form_05_03"> <h3>당뇨병</h3></div>
+                                    <div><input type="radio" name="form_05_03"> <h3>루프스병</h3></div>
+                                    <div><input type="radio" name="form_05_03"> <h3>통풍</h3></div>
+                                    <div><input type="radio" name="form_05_03"> <h3>알코올 중독</h3></div>
+                                    <div><input type="radio" name="form_05_03"> <h3>해당사항 없음</h3></div>
+                                </li>
+                                <li>
+                                    <h4>
+                                        4. 과거에 운동 중 혹은 사고로(교통사고, 넘어짐, 추락 등)인해<br/>
+                                        손/손가락/손목, 팔/팔꿈치, 어깨, 목, 허리, 다리/발<br/>
+                                        부위를 다친 적이 있습니까?
+                                    </h4>
+                                    <div><input type="radio" name="form_05_04"> <h3>손/손가락/손목</h3></div>
+                                    <div><input type="radio" name="form_05_04"> <h3>팔/팔꿈치</h3></div>
+                                    <div><input type="radio" name="form_05_04"> <h3>어깨</h3></div>
+                                    <div><input type="radio" name="form_05_04"> <h3>목</h3></div>
+                                    <div><input type="radio" name="form_05_04"> <h3>허리</h3></div>
+                                    <div><input type="radio" name="form_05_04"> <h3>다리/발</h3></div>
+                                    <div><input type="radio" name="form_05_04"> <h3>해당사항 없음</h3></div>
+                                </li>
+                                <li>
+                                    <h4>
+                                        5. 현재 하고 계시는 일의 육체적 부담은 어느 정도라고 생각하십니까?
+                                    </h4>
+                                    <div><input type="radio" name="form_05_05"> <h3>전혀 힘들지 않음</h3></div>
+                                    <div><input type="radio" name="form_05_05"> <h3>견딜 만 함</h3></div>
+                                    <div><input type="radio" name="form_05_05"> <h3>약간 힘듦</h3></div>
+                                    <div><input type="radio" name="form_05_05"> <h3>매우 힘듦</h3></div>
+                                </li>
+                            </ul>
+                            
+                            
+                        </div>
+
+                    </section>
+                    
+                </div>
+            </div>
+        </div>
+        <script src="js/main.js"></script>
+    </body>
+</html>
