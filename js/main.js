@@ -178,3 +178,60 @@ $(".form_05 ul li input:radio[name=form_05_05]").click(function() {
     $(".form_05 ul li:nth-child(5) label.4").addClass("on");
   }
 });
+
+$(".yesOrNo ul li input:radio[name=form_06_01]").click(function() {
+  if ($(".yesOrNo ul li input:radio[name=form_06_01]:checked").val() == "1") {
+    $(".yesOrNo ul li label").removeClass("on");
+    $(".yesOrNo ul li label.1").addClass("on");
+    $("#s04").addClass("on");
+  } else if (
+    $(".yesOrNo ul li input:radio[name=form_06_01]:checked").val() == "2"
+  ) {
+    $(".yesOrNo ul li label").removeClass("on");
+    $(".yesOrNo ul li label.2").addClass("on");
+    $("#s04").removeClass("on");
+  }
+});
+
+$(".check ul li:nth-child(1) input:checkbox[name=form_07_01]").click(function() {
+  if ($(".check ul li:nth-child(1) input:checkbox[name=form_07_01]").val() == "1") {
+    $(".check ul li label.1").toggleClass("on");
+  } else if (true){
+    a=1;
+  }
+});
+$(".check ul li:nth-child(2) input:checkbox[name=form_07_01]").click(function() {
+  if ($(".check ul li:nth-child(2) input:checkbox[name=form_07_01]").val() == "2") {
+    $(".check ul li label.2").toggleClass("on");
+  } else if (true){
+    a=1;
+  }
+});
+$(".check ul li:nth-child(3) input:checkbox[name=form_07_01]").click(function() {
+  if ($(".check ul li:nth-child(3) input:checkbox[name=form_07_01]").val() == "3") {
+    $(".check ul li label.3").toggleClass("on");
+  } else if (true){
+    a=1;
+  }
+});
+$(".check ul li:nth-child(4) input:checkbox[name=form_07_01]").click(function() {
+  if ($(".check ul li:nth-child(4) input:checkbox[name=form_07_01]").val() == "4") {
+    $(".check ul li label.4").toggleClass("on");
+  } else if (true){
+    a=1;
+  }
+});
+$(".check ul li:nth-child(5) input:checkbox[name=form_07_01]").click(function() {
+  if ($(".check ul li:nth-child(5) input:checkbox[name=form_07_01]").val() == "5") {
+    $(".check ul li label.5").toggleClass("on");
+  } else if (true){
+    a=1;
+  }
+});
+$(".check ul li:nth-child(6) input:checkbox[name=form_07_01]").click(function() {
+  if ($(".check ul li:nth-child(6) input:checkbox[name=form_07_01]").val() == "6") {
+    $(".check ul li label.6").toggleClass("on");
+  } else if (true){
+    a=1;
+  }
+});
