@@ -323,7 +323,7 @@ input[type="radio"]:checked + label:after {
 }
 
 #s04{
-  margin: 70px 0;
+  margin-top:70px;
   display: none;
 }
 #s04.on{
@@ -343,6 +343,68 @@ input[type="radio"]:checked + label:after {
   margin-top:20px;
   text-indent: -7px;
   color:#969696;
+}
+
+#s04 .hide{
+  
+}
+#s04 .hide ul{
+  
+}
+#s04 .hide ul li.checklist{
+  box-sizing: border-box;
+  margin-top: 60px;
+  display: none;
+}
+#s04 .hide ul li.checklist.on{
+  display: block;
+}
+#s04 .hide ul li.checklist:nth-child(1){
+  margin-top:70px;
+}
+#s04 .hide ul li.checklist .ex{
+  text-align: center;
+  background: #e3e3e3;
+  padding:20px;
+  margin-bottom:40px;
+}
+#s04 .hide ul li.checklist .ex p:nth-child(1){
+  margin-bottom:15px;
+}
+#s04 .hide ul li.checklist .ex p{
+  line-height: 25px;;
+}
+#s04 .hide ul li.checklist ul li h3 input{
+  height: 30px;
+  line-height: 30px;
+  vertical-align: middle;
+  padding: 3px 5px;
+  box-sizing: border-box;
+  margin-left:10px;
+}
+
+#s04 .hide ul li h2{
+  margin:25px 0;
+  margin-top:100px;
+  font-size:25px;
+}
+#s04 .hide ul li h4{
+  font-size: 19px;
+  line-height: 33px;
+  margin-bottom: 35px;
+}
+#s04 .hide ul li ul{}
+#s04 .hide ul li.checklist ul li{
+  box-sizing: border-box;
+  margin-top: 60px;
+}
+#s04 .hide ul li ul li > div{
+  margin: 28px 0;
+}
+#s04 .hide ul li ul li h3{
+  display: inline-block;
+  margin-left: 11px;
+  font-size:17px;
 }
 
 input[type="checkbox"] {
@@ -424,9 +486,15 @@ input[type="checkbox"]:checked + label:after {
   border-radius: 100%;
 }
 
+
+
 #end{
   text-align: center;
   padding-top:80px;
+  display: none;
+}
+#end.on{
+  display: block;
 }
 #end h3{
   margin-bottom:30px;
